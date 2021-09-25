@@ -10,6 +10,8 @@ body {
     background-image: url(fundo.png);
     height: 100vh;
     background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
   
 .container {
