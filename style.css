@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background: rgb(11,0,26);
+    background: linear-gradient(0deg, rgba(11,0,26,1) 0%, rgba(61,4,139,1) 100%);
+    background-image: url(fundo.png);
+    height: 100vh;
+    background-position: center bottom;
+}
+  
+.container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px;
+}
+  
+.page-title {
+    color: #FADA06;
+    margin: 0 0 5px;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+  
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+  
+.page-logo {
+    width: 200px;
+    margin-top: 15px;
+}
+  
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+  
+input {
+    margin: 5px;
+    padding: 8px 5px;
+    border-radius: 15px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    box-shadow: 0 0 10px #a4e5ff;
+}
+
+label {
+    color: white;
+}
+  
+button {
+    margin-top: 12px;
+    padding: 8px 30px;
+    background-color: #FADA06;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #272727;
+    cursor: pointer;
+    margin: 5px;
+}
+  
+h2 {
+    color: #FADA06;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+  
+@media (max-width:500px) {
+    body {
+        background-image: linear-gradient(#0b001ae5,#0b001ae5),url(fundo.png);
+    }
+}
