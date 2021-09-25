@@ -5,5 +5,6 @@
  
 https://juanluky.github.io/Conversor-de-notas/
 
-![ilustração-conceito](https://user-images.githubusercontent.com/86580442/134786056-96890457-ccd4-44dd-98fe-6ad96a64f9ed.png)
+
+<img src="https://user-images.githubusercontent.com/86580442/134787047-d6568a17-3d2a-46ba-84cd-9ef1bceaa9a8.gif" alt="drawing" width="400"/>
 
