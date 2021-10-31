@@ -5,13 +5,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body {
-    background: rgb(11,0,26);
-    background: linear-gradient(0deg, rgba(11,0,26,1) 0%, rgba(61,4,139,1) 100%);
-    background-image: url(fundo.png);
+    background: linear-gradient(rgba(11, 0, 26, 0.815),rgba(11, 0, 26, 0.801)),url(fundo.png);
     height: 100vh;
-    background-position: center bottom;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
+    background-position: center;
 }
   
 .container {
